@@ -1884,19 +1884,27 @@ body {
   font-size: 80px;
   color: #149dcc;
 }
-.cid-rkjGWNTxAj {
+.cid-rkqtZQpzYG {
   padding-top: 90px;
   padding-bottom: 90px;
-  background-color: #ffffff;
   background: linear-gradient(45deg, #ffffff, #cebfaf);
 }
-.cid-rkjGWNTxAj .mbr-section-subtitle {
-  color: #767676;
+.cid-rkqtZQpzYG .main {
+  flex-direction: row-reverse;
+  -webkit-flex-direction: row-reverse;
 }
-.cid-rkjGWNTxAj .btn {
+.cid-rkqtZQpzYG .main .mbr-section-btn {
+  text-align: right;
+}
+.cid-rkqtZQpzYG .btn {
   margin: 0 0 .5rem 0;
 }
-.cid-rkjGWNTxAj H2 {
+.cid-rkqtZQpzYG H3 {
+  color: #232323;
+  text-align: left;
+}
+.cid-rkqtZQpzYG H2 {
+  color: #232323;
   text-align: left;
 }
 .cid-rkjFSZ6QGl {
@@ -2115,6 +2123,73 @@ body {
     width: 100%;
   }
   .cid-rkjOqpcYHb .card-wrapper .card-box .bottom-line p {
+    text-align: center;
+    margin: 1rem 0 0 0;
+  }
+}
+.cid-rkquA9BTr3 {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background: linear-gradient(45deg, #ffffff, #dbd4b8);
+}
+.cid-rkquA9BTr3 .main {
+  flex-direction: row-reverse;
+  -webkit-flex-direction: row-reverse;
+}
+.cid-rkquA9BTr3 .main .mbr-section-btn {
+  text-align: right;
+}
+.cid-rkquA9BTr3 .btn {
+  margin: 0 0 .5rem 0;
+}
+.cid-rkquA9BTr3 H3 {
+  color: #232323;
+  text-align: left;
+}
+.cid-rkquA9BTr3 H2 {
+  color: #232323;
+  text-align: left;
+}
+.cid-rkquYuhmfF {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #ffffff;
+}
+.cid-rkquYuhmfF h2 {
+  margin-bottom: 0;
+}
+.cid-rkquYuhmfF h4 {
+  font-weight: 500;
+  margin-bottom: 0;
+  width: 80%;
+}
+.cid-rkquYuhmfF p {
+  color: #767676;
+  margin-bottom: 0;
+}
+.cid-rkquYuhmfF .card-wrapper {
+  border-top: 1px solid #efefef;
+  background-color: #ffffff;
+  position: relative;
+  justify-content: unset;
+}
+.cid-rkquYuhmfF .card-wrapper .card-box {
+  padding: 2rem 1rem;
+  width: 100%;
+}
+.cid-rkquYuhmfF .card-wrapper .card-box .top-line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cid-rkquYuhmfF .card-wrapper .card-box .bottom-line {
+  width: 70%;
+}
+@media (max-width: 767px) {
+  .cid-rkquYuhmfF .card-wrapper .card-box .bottom-line {
+    width: 100%;
+  }
+  .cid-rkquYuhmfF .card-wrapper .card-box .bottom-line p {
     text-align: center;
     margin: 1rem 0 0 0;
   }
